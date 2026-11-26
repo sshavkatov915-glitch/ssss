@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fd"/>
+        <attribute name="authors" value="IT-PARK"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-26 04:09:34 TK"/>
+        <attribute name="created" value="SVQtUEFSSztERVNLVE9QLTVVVk9KVUs7MjAyNi0xMS0yNjswMjo0MDoyNyBUSzsyOTA1"/>
+        <attribute name="edited" value="SVQtUEFSSztERVNLVE9QLTVVVk9KVUs7MjAyNi0xMS0yNjswNDowOTozNCBUSzsxOzMwMTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vaqt" type="Integer" array="False" size=""/>
+            <declare name="pul" type="Integer" array="False" size=""/>
+            <output expression="&quot;kompyuterda oynaga vaqtingiz&quot;" newline="True"/>
+            <input variable="vaqt"/>
+            <output expression="&quot;oynagan vaqtingiz uchun tolov&quot;" newline="True"/>
+            <input variable="pul"/>
+            <if expression="vaqt&gt;=60 and pul&gt;=8">
+                <then>
+                    <output expression="&quot;kompyuter klubimizga kelganingizdan xursandmiz Ko'rishguncha&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;afsuski sizning mablag'ingiz yetarli emas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
